@@ -7,6 +7,10 @@ How to use this image
 ------------------
 Like the official Node.js image, just run `docker run thalesdigitalfactory/node-ffmpeg:10-stretch`, a container will be created with Node process running
 
+How to build this image
+------------------
+Make sure that the ownership of docker-entrypoint.sh is set to 1000:1000 than run `docker build -t my-node-ffmpeg .`
+
 Contribute
 ------------------
 - [code repository](https://github.com/thalesdigitalfactory/node-ffmpeg)
