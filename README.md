@@ -5,7 +5,7 @@ Build on the official Node.js docker repo with an additional fresh installation 
 
 How to use this image
 ------------------
-Like the official Node.js image, just run `docker run thalesdigitalfactory/node-ffmpeg:10-stretch`, a container will be created with Node process running
+Like the official Node.js image, just run `docker run thalesdigitalfactory/node-ffmpeg:12-buster-slim`, a container will be created with Node process running
 
 How to build this image
 ------------------
@@ -18,7 +18,7 @@ Contribute
 
 License
 ------------------
-View [license information](https://github.com/nodejs/docker-node/blob/master/LICENSE)  for Node.js or [license information](https://github.com/nodejs/node/blob/master/LICENSE) for the Node.js Docker project.
+View [license information](https://github.com/nodejs/docker-node/blob/12/LICENSE)  for Node.js or [license information](https://github.com/nodejs/node/blob/12/LICENSE) for the Node.js Docker project.
 
 As with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).
 
