@@ -5,7 +5,7 @@ Build on the official Node.js docker repo with an additional fresh installation 
 
 How to use this image
 ------------------
-Like the official Node.js image, just run `docker run thalesdigitalfactory/node-ffmpeg:12-buster-slim`, a container will be created with Node process running
+Like the official Node.js image, just run `docker run thalesdigitalfactory/node-ffmpeg:12-buster`, a container will be created with Node process running
 
 Contribute
 ------------------
