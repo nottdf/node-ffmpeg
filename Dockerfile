@@ -1,4 +1,4 @@
-FROM node:10-stretch
+FROM node:12-buster-slim
 
 RUN apt-get update; \
     apt-get install ffmpeg -y
